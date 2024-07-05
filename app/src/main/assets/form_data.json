@@ -1,0 +1,1253 @@
+{
+  "data": {
+    "formType": {
+      "formTypeId": "3b4abd0a-724b-11ee-ae5d-df48f3a256d4",
+      "formIdentityFormIdentityId": "3b36c908-724b-11ee-a682-9b6882bcd3e2",
+      "versionNumber": 1,
+      "publishedDate": "2023-10-24T08:56:33.645522+00:00",
+      "draftFormTypeFormTypeId": "3b384576-724b-11ee-ae36-3bc55a1b4a3a",
+      "name": "LS Form",
+      "rules": "[]",
+      "ordinal": 75,
+      "isDeleted": false,
+      "rulesSummary": {
+        "datasets": []
+      },
+      "pages": [
+        {
+          "pageId": "3b4b1df4-724b-11ee-ae5e-031ee5fd6465",
+          "draftPagePageId": "aea823b8-688b-42d5-b460-330da2f5d563",
+          "name": "General",
+          "ordinal": 0,
+          "isVisible": true,
+          "sections": [
+            {
+              "pageSectionId": "3b4b2740-724b-11ee-ae5f-ef1120e44335",
+              "draftPageSectionPageSectionId": "f0561397-ffbb-462c-b996-06e233dfb68f",
+              "name": null,
+              "ordinal": 0,
+              "hasHeader": false,
+              "isVisible": true,
+              "parentSectionId": null,
+              "page": {
+                "pageId": "3b4b1df4-724b-11ee-ae5e-031ee5fd6465",
+                "isVisible": true
+              },
+              "repeatableConfiguration": null,
+              "elements": [
+                {
+                  "pageElementId": "77899ff2-7c61-45bb-96cb-688d9b763097",
+                  "draftPageElementPageElementId": "e1e7347e-aa04-4ea8-820b-fe7a2ede19b7",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Location",
+                  "ordinal": 0,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "be0bdc5b-bb6a-46a1-8101-b46584326de9",
+                  "draftPageElementPageElementId": "aa9e7e16-4398-47a2-a308-2ef2771b7957",
+                  "placeholderText": null,
+                  "elementType": "DATE",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Repair Begin Date",
+                  "ordinal": 2,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "d3116bc1-51cd-412c-ab23-0199263fc780",
+                  "draftPageElementPageElementId": "55647120-e361-4c48-91d9-23ffb7b9859d",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Nearest Intersection",
+                  "ordinal": 1,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "f8045b47-4409-4bb3-86d2-e879e34e2ac3",
+                  "draftPageElementPageElementId": "2c4692dd-e910-401a-b8fa-7940deca13b8",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Reported By",
+                  "ordinal": 3,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b4b9298-724b-11ee-ae60-432dfbf3e4ff",
+                      "ordinal": 0,
+                      "name": "Annual Survey",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "reported_by_annual_survey"
+                    },
+                    {
+                      "pageElementOptionId": "3b4bcef2-724b-11ee-ae61-c38af69132b6",
+                      "ordinal": 1,
+                      "name": "Customer",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "reported_by_customer"
+                    },
+                    {
+                      "pageElementOptionId": "3b4be39c-724b-11ee-ae62-63322901f367",
+                      "ordinal": 2,
+                      "name": "Employee",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "reported_by_employee"
+                    },
+                    {
+                      "pageElementOptionId": "3b4bee6e-724b-11ee-ae63-9320b093c062",
+                      "ordinal": 3,
+                      "name": "Other",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "reported_by_other"
+                    }
+                  ],
+                  "validations": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "3b4c11fa-724b-11ee-ae64-03e1199b71bc",
+          "draftPagePageId": "405d90fa-a715-4411-ae6e-a159d220ffa5",
+          "name": "Leakage Information",
+          "ordinal": 1,
+          "isVisible": true,
+          "sections": [
+            {
+              "pageSectionId": "3b4c1600-724b-11ee-ae65-7320d1aea229",
+              "draftPageSectionPageSectionId": "5cda9e95-4ae6-4f7f-ad3b-d7858b2eda4b",
+              "name": null,
+              "ordinal": 0,
+              "hasHeader": false,
+              "isVisible": true,
+              "parentSectionId": null,
+              "page": {
+                "pageId": "3b4c11fa-724b-11ee-ae64-03e1199b71bc",
+                "isVisible": true
+              },
+              "repeatableConfiguration": null,
+              "elements": [
+                {
+                  "pageElementId": "5414a002-3161-4d64-98cc-b6bd47e840c2",
+                  "draftPageElementPageElementId": "3d0ca28b-b5a8-4bff-aecf-0f953b387ebe",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Repair Priority",
+                  "ordinal": 7,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b4d8314-724b-11ee-ae6c-532197a1281a",
+                      "ordinal": 0,
+                      "name": "Immediately",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "repair_priority_immediately"
+                    },
+                    {
+                      "pageElementOptionId": "3b4daa92-724b-11ee-ae6d-2b6d39fa1494",
+                      "ordinal": 1,
+                      "name": "Routine",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "repair_priority_routine"
+                    },
+                    {
+                      "pageElementOptionId": "3b4dbb18-724b-11ee-ae6e-f3255cfcd574",
+                      "ordinal": 2,
+                      "name": "Soon",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "repair_priority_soon"
+                    }
+                  ],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "829aa374-ef00-4933-94ce-a82c429d3829",
+                  "draftPageElementPageElementId": "b8a5ce89-d855-401a-a7d4-1ba420230b27",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Leak Grade",
+                  "ordinal": 0,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b4c3018-724b-11ee-ae66-e37aca811fb2",
+                      "ordinal": 0,
+                      "name": "1-A",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "leak_grade_1_a"
+                    },
+                    {
+                      "pageElementOptionId": "3b4c4ddc-724b-11ee-ae67-172d11d057b3",
+                      "ordinal": 1,
+                      "name": "2-B",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "leak_grade_2_b"
+                    },
+                    {
+                      "pageElementOptionId": "3b4c5ebc-724b-11ee-ae68-2bb94bcf145f",
+                      "ordinal": 2,
+                      "name": "3-C",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "leak_grade_3_c"
+                    }
+                  ],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "aeb68454-c652-47e7-bc77-d10d69a8a94e",
+                  "draftPageElementPageElementId": "49b667de-fb49-4cc6-97e4-ac9604cb54e2",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Recheck Value",
+                  "ordinal": 5,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b4cdc0c-724b-11ee-ae69-b390ad40f291",
+                      "ordinal": 0,
+                      "name": "Positive",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "recheck_value_positive"
+                    },
+                    {
+                      "pageElementOptionId": "3b4d2162-724b-11ee-ae6a-bb3a1f0ad9c5",
+                      "ordinal": 1,
+                      "name": "Negative",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "recheck_value_negative"
+                    }
+                  ],
+                  "validations": [
+                    {
+                      "regexValidator": "",
+                      "regexValidatorFailureMessage": "",
+                      "ordinal": 0,
+                      "isActive": true
+                    }
+                  ]
+                },
+                {
+                  "pageElementId": "b6fffdbf-63e8-44ff-a19f-34b7cbb166bd",
+                  "draftPageElementPageElementId": "5c119752-f33d-46ce-85d4-a34d559a7d6a",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Instrument Type",
+                  "ordinal": 1,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "d1e566c6-deaf-44eb-8aff-b0c3b545b208",
+                  "draftPageElementPageElementId": "5028b7df-c935-45b9-87fa-5bde324ac30d",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Recheck Reading",
+                  "ordinal": 6,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "e2e8e1ba-aad5-4a6f-974b-adce3775255e",
+                  "draftPageElementPageElementId": "56947ec3-950e-4b59-9b96-7c1ae9d45eb3",
+                  "placeholderText": null,
+                  "elementType": "DATE_TIME",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Rechecked On",
+                  "ordinal": 3,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "e864c640-d516-4310-9149-4eaefea5d5bb",
+                  "draftPageElementPageElementId": "22222f25-ec7b-41d1-8579-0d6e49e5248a",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Rechecked By",
+                  "ordinal": 4,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "eba0fe34-7e52-482b-8f2b-f4dd58039c21",
+                  "draftPageElementPageElementId": "f99b9a1c-0ba6-4e4f-bc43-b51fc49f96ba",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Instrument Reading",
+                  "ordinal": 2,
+                  "options": [],
+                  "validations": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "3b4ddd5a-724b-11ee-ae6f-1749cfb0d533",
+          "draftPagePageId": "22edce6e-2ab5-4f98-badf-9500cbe2a907",
+          "name": "Weather",
+          "ordinal": 2,
+          "isVisible": true,
+          "sections": [
+            {
+              "pageSectionId": "3b4de138-724b-11ee-ae70-636e1590bebf",
+              "draftPageSectionPageSectionId": "e2bcb11d-3799-406c-b147-d41ae3fbb1c9",
+              "name": null,
+              "ordinal": 0,
+              "hasHeader": false,
+              "isVisible": true,
+              "parentSectionId": null,
+              "page": {
+                "pageId": "3b4ddd5a-724b-11ee-ae6f-1749cfb0d533",
+                "isVisible": true
+              },
+              "repeatableConfiguration": null,
+              "elements": [
+                {
+                  "pageElementId": "22222fd9-fbdf-4f11-b36f-e2c010b6f0c4",
+                  "draftPageElementPageElementId": "e9ad7e92-cea9-4c9a-8f0a-2e745b470df1",
+                  "placeholderText": null,
+                  "elementType": "DECIMAL",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Temperature",
+                  "ordinal": 3,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "4ed54da4-eb77-45c4-b836-5fd9515b95aa",
+                  "draftPageElementPageElementId": "d619c14c-cbd9-4729-90aa-bcba4e7583a5",
+                  "placeholderText": null,
+                  "elementType": "INTEGER",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Wind Speed",
+                  "ordinal": 2,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "71a8ac9b-06c2-4193-9318-1fbdbf26af93",
+                  "draftPageElementPageElementId": "b1a51021-e6d4-49d9-9621-ef8e3e9b4090",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Wind Direction",
+                  "ordinal": 1,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "aa4fefb1-ebce-4775-91d7-2cc7725c9d05",
+                  "draftPageElementPageElementId": "bdb92548-6f97-45ca-96f2-0d4501c56f84",
+                  "placeholderText": null,
+                  "elementType": "DECIMAL",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Barimetric Pressure",
+                  "ordinal": 5,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "b26626bb-0057-4181-9264-2a5161d2ad61",
+                  "draftPageElementPageElementId": "17976938-d31e-406b-9e38-a0660b1658f0",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Weather",
+                  "ordinal": 0,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "d72e83e0-6f96-46df-8690-913f5dac6bb2",
+                  "draftPageElementPageElementId": "507cd946-1e35-4b88-8d0f-1d5e7269d040",
+                  "placeholderText": null,
+                  "elementType": "DECIMAL",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Humidity",
+                  "ordinal": 4,
+                  "options": [],
+                  "validations": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "3b4e5118-724b-11ee-ae71-7b1dab275db7",
+          "draftPagePageId": "d71dc2ba-f791-41e1-9877-957bc06a123a",
+          "name": "System History",
+          "ordinal": 3,
+          "isVisible": true,
+          "sections": [
+            {
+              "pageSectionId": "3b4e54ce-724b-11ee-ae72-933b64dea60d",
+              "draftPageSectionPageSectionId": "7c8e64eb-819e-4738-9de2-7e5c177e20c4",
+              "name": null,
+              "ordinal": 0,
+              "hasHeader": false,
+              "isVisible": true,
+              "parentSectionId": null,
+              "page": {
+                "pageId": "3b4e5118-724b-11ee-ae71-7b1dab275db7",
+                "isVisible": true
+              },
+              "repeatableConfiguration": null,
+              "elements": [
+                {
+                  "pageElementId": "0aad43ab-8b1d-41dd-8ab9-3d36fff0c5cc",
+                  "draftPageElementPageElementId": "297221a1-2ee2-4832-a69d-078c76e0bd45",
+                  "placeholderText": null,
+                  "elementType": "DECIMAL",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "System Age",
+                  "ordinal": 2,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "0c75f4f1-bd12-4496-8e79-c5bd8536cf49",
+                  "draftPageElementPageElementId": "1152fe1b-1340-4d06-bb64-29774a61d782",
+                  "placeholderText": null,
+                  "elementType": "DECIMAL",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Pressure",
+                  "ordinal": 1,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "171f35ba-da63-4d52-a934-aaf9c6b131b9",
+                  "draftPageElementPageElementId": "03ea0b3c-9ac4-434c-b314-9dcea31f2840",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Coating",
+                  "ordinal": 6,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b4ed124-724b-11ee-ae73-9794c6dcd0db",
+                      "ordinal": 0,
+                      "name": "Other",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "coating_other"
+                    },
+                    {
+                      "pageElementOptionId": "3b4ef528-724b-11ee-ae74-db6c84bf0119",
+                      "ordinal": 1,
+                      "name": "Bare",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "coating_bare"
+                    },
+                    {
+                      "pageElementOptionId": "3b4f0798-724b-11ee-ae75-2bc10a3169a3",
+                      "ordinal": 2,
+                      "name": "Asphalt",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "coating_asphalt"
+                    },
+                    {
+                      "pageElementOptionId": "3b4f14fe-724b-11ee-ae76-abd4c7ba5410",
+                      "ordinal": 3,
+                      "name": "No. Oxide",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "coating_no__oxide"
+                    },
+                    {
+                      "pageElementOptionId": "3b4f1f8a-724b-11ee-ae77-23dab50acae5",
+                      "ordinal": 4,
+                      "name": "Enamel",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "coating_enamel"
+                    },
+                    {
+                      "pageElementOptionId": "3b4f3380-724b-11ee-ae78-e367ee97018c",
+                      "ordinal": 5,
+                      "name": "Mill",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "coating_mill"
+                    }
+                  ],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "382dfc7e-6cbf-4f75-9e02-fc10ebb80037",
+                  "draftPageElementPageElementId": "3cc12b57-c40f-4d18-af77-ca502a112c6d",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Cathodic Protection",
+                  "ordinal": 3,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "76a52fbc-2ca6-4176-a7b6-ce7ad4451077",
+                  "draftPageElementPageElementId": "7c0b0083-e89b-42c3-b891-f1b508140aa0",
+                  "placeholderText": null,
+                  "elementType": "DECIMAL",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Soil Resistance",
+                  "ordinal": 4,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "e54b222a-f018-4cf1-8382-ef070831ec64",
+                  "draftPageElementPageElementId": "5004d108-3deb-4e8d-a5a1-2ec94f0dc906",
+                  "placeholderText": null,
+                  "elementType": "DECIMAL",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "CuSO4 Volts ",
+                  "ordinal": 5,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "e860bbc8-8d21-431d-a001-802625a55b7b",
+                  "draftPageElementPageElementId": "b5bebbca-bbd4-4a0d-86a0-72213ee98a44",
+                  "placeholderText": null,
+                  "elementType": "DECIMAL",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Size",
+                  "ordinal": 0,
+                  "options": [],
+                  "validations": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "3b4f4a5a-724b-11ee-ae79-a366cec36938",
+          "draftPagePageId": "fca1328a-9e01-4437-bda4-9bd6bb9e4aa6",
+          "name": "Leakage Data",
+          "ordinal": 4,
+          "isVisible": true,
+          "sections": [
+            {
+              "pageSectionId": "3b4f4e38-724b-11ee-ae7a-63f25d1c3ac9",
+              "draftPageSectionPageSectionId": "bd30b07e-cb59-4cc8-9f39-d753a97a2129",
+              "name": null,
+              "ordinal": 0,
+              "hasHeader": false,
+              "isVisible": true,
+              "parentSectionId": null,
+              "page": {
+                "pageId": "3b4f4a5a-724b-11ee-ae79-a366cec36938",
+                "isVisible": true
+              },
+              "repeatableConfiguration": null,
+              "elements": [
+                {
+                  "pageElementId": "389c01a7-2aec-42ef-a54e-ba816ba567e6",
+                  "draftPageElementPageElementId": "8f458132-b9e0-4b9a-86e5-ccb797905ba7",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Joint Type",
+                  "ordinal": 2,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b50bf34-724b-11ee-ae87-07dd3a816ac9",
+                      "ordinal": 0,
+                      "name": "Other",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "joint_type_other"
+                    },
+                    {
+                      "pageElementOptionId": "3b50dcbc-724b-11ee-ae88-079892a554ec",
+                      "ordinal": 1,
+                      "name": "Lead",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "joint_type_lead"
+                    },
+                    {
+                      "pageElementOptionId": "3b50ef68-724b-11ee-ae89-ebde57e87236",
+                      "ordinal": 2,
+                      "name": "Mechanical",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "joint_type_mechanical"
+                    },
+                    {
+                      "pageElementOptionId": "3b510656-724b-11ee-ae8a-db158ede38d0",
+                      "ordinal": 3,
+                      "name": "Weld",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "joint_type_weld"
+                    },
+                    {
+                      "pageElementOptionId": "3b511902-724b-11ee-ae8b-d7dd702c228c",
+                      "ordinal": 4,
+                      "name": "Threaded & Coupled",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "joint_type_threaded___coupled"
+                    }
+                  ],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "47119623-e341-452d-a900-6fd9382194bb",
+                  "draftPageElementPageElementId": "4448a5ff-a8c0-4016-b0ec-555831a35080",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Leak Remarks",
+                  "ordinal": 6,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "af3fb67c-797d-4ef4-a9a0-1d6bbdf14867",
+                  "draftPageElementPageElementId": "1c094a6b-0d04-4e01-8011-1d7ecdbf65c6",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Soil Condition",
+                  "ordinal": 0,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b4f663e-724b-11ee-ae7b-23e69ef6641b",
+                      "ordinal": 0,
+                      "name": "Very Dry",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_condition_very_dry"
+                    },
+                    {
+                      "pageElementOptionId": "3b4f8786-724b-11ee-ae7c-d3a71763ae13",
+                      "ordinal": 1,
+                      "name": "Dry",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_condition_dry"
+                    },
+                    {
+                      "pageElementOptionId": "3b4fa504-724b-11ee-ae7d-274d91df811c",
+                      "ordinal": 2,
+                      "name": "Damp",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_condition_damp"
+                    },
+                    {
+                      "pageElementOptionId": "3b4fb65c-724b-11ee-ae7e-b7247df841a9",
+                      "ordinal": 3,
+                      "name": "Wet",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_condition_wet"
+                    },
+                    {
+                      "pageElementOptionId": "3b4fd538-724b-11ee-ae7f-2f9c0ed7f0d9",
+                      "ordinal": 4,
+                      "name": "Very Wet",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_condition_very_wet"
+                    }
+                  ],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "bb10731b-e95f-42ce-9deb-65d74bc3a44e",
+                  "draftPageElementPageElementId": "cbe781bb-156f-47e1-83b9-6f3503c42b80",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Soil Type",
+                  "ordinal": 1,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b4ffd56-724b-11ee-ae80-73076a33acbc",
+                      "ordinal": 0,
+                      "name": "Loam",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_type_loam"
+                    },
+                    {
+                      "pageElementOptionId": "3b502736-724b-11ee-ae81-2b7571038de8",
+                      "ordinal": 1,
+                      "name": "Sand",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_type_sand"
+                    },
+                    {
+                      "pageElementOptionId": "3b503154-724b-11ee-ae82-3bd4f8af2802",
+                      "ordinal": 2,
+                      "name": "Clay",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_type_clay"
+                    },
+                    {
+                      "pageElementOptionId": "3b504a7c-724b-11ee-ae83-530a7c707061",
+                      "ordinal": 3,
+                      "name": "Sandy Clay",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_type_sandy_clay"
+                    },
+                    {
+                      "pageElementOptionId": "3b506994-724b-11ee-ae84-237003592ab7",
+                      "ordinal": 4,
+                      "name": "Silty Clay",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_type_silty_clay"
+                    },
+                    {
+                      "pageElementOptionId": "3b508082-724b-11ee-ae85-0f521092ebc1",
+                      "ordinal": 5,
+                      "name": "Clay Loam",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_type_clay_loam"
+                    },
+                    {
+                      "pageElementOptionId": "3b509856-724b-11ee-ae86-6358dc5cd6ef",
+                      "ordinal": 6,
+                      "name": "Other",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "soil_type_other"
+                    }
+                  ],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "c9854e4b-47e8-4392-9800-1e8e5520195e",
+                  "draftPageElementPageElementId": "4d0fd60a-932b-46b8-806c-22e24b0abc7b",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Surface Over Leak",
+                  "ordinal": 4,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b51fd18-724b-11ee-ae93-571c6399f95d",
+                      "ordinal": 0,
+                      "name": "Asphalt",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "surface_over_leak_asphalt"
+                    },
+                    {
+                      "pageElementOptionId": "3b521f8c-724b-11ee-ae94-535092aab157",
+                      "ordinal": 1,
+                      "name": "Concrete",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "surface_over_leak_concrete"
+                    },
+                    {
+                      "pageElementOptionId": "3b522dec-724b-11ee-ae95-474e27cf59da",
+                      "ordinal": 2,
+                      "name": "Gravel",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "surface_over_leak_gravel"
+                    },
+                    {
+                      "pageElementOptionId": "3b523ce2-724b-11ee-ae96-4fff7288b06b",
+                      "ordinal": 3,
+                      "name": "Brick",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "surface_over_leak_brick"
+                    },
+                    {
+                      "pageElementOptionId": "3b5257c2-724b-11ee-ae97-e75f8873881c",
+                      "ordinal": 4,
+                      "name": "Lawn",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "surface_over_leak_lawn"
+                    },
+                    {
+                      "pageElementOptionId": "3b5258a8-724b-11ee-ae98-234f7f2857c9",
+                      "ordinal": 5,
+                      "name": "Unsurfaced",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "surface_over_leak_unsurfaced"
+                    },
+                    {
+                      "pageElementOptionId": "3b5268e8-724b-11ee-ae99-5fb5942a1f96",
+                      "ordinal": 6,
+                      "name": "Other",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "surface_over_leak_other"
+                    }
+                  ],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "c9a3d97b-508c-412d-af99-33208aa33aa1",
+                  "draftPageElementPageElementId": "89a72de5-9006-4f2f-b4d0-12db444f43b9",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Possible Leak Source",
+                  "ordinal": 3,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b51424c-724b-11ee-ae8c-3fe7b38110b2",
+                      "ordinal": 0,
+                      "name": "Main",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "possible_leak_source_main"
+                    },
+                    {
+                      "pageElementOptionId": "3b516c36-724b-11ee-ae8d-571291971e2e",
+                      "ordinal": 1,
+                      "name": "Service",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "possible_leak_source_service"
+                    },
+                    {
+                      "pageElementOptionId": "3b5177a8-724b-11ee-ae8e-83beeda422de",
+                      "ordinal": 2,
+                      "name": "Valve",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "possible_leak_source_valve"
+                    },
+                    {
+                      "pageElementOptionId": "3b5188c4-724b-11ee-ae8f-4b7299835c2c",
+                      "ordinal": 3,
+                      "name": "Meter",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "possible_leak_source_meter"
+                    },
+                    {
+                      "pageElementOptionId": "3b519c9c-724b-11ee-ae90-b7844c033c1d",
+                      "ordinal": 4,
+                      "name": "Other",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "possible_leak_source_other"
+                    },
+                    {
+                      "pageElementOptionId": "3b51c118-724b-11ee-ae91-4b083dbfcf99",
+                      "ordinal": 5,
+                      "name": "Multiple",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "possible_leak_source_multiple"
+                    },
+                    {
+                      "pageElementOptionId": "3b51d338-724b-11ee-ae92-979dc53f2085",
+                      "ordinal": 6,
+                      "name": "Drip",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "possible_leak_source_drip"
+                    }
+                  ],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "ddad4ae9-9103-45cb-90ef-7b60b913a166",
+                  "draftPageElementPageElementId": "bd760194-0a68-48a6-b773-7b2f86eb360a",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Leak Cause",
+                  "ordinal": 5,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b528684-724b-11ee-ae9a-a374ed2e8ed7",
+                      "ordinal": 0,
+                      "name": "Other",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "leak_cause_other"
+                    },
+                    {
+                      "pageElementOptionId": "3b52a57e-724b-11ee-ae9b-57fc3ffe6dae",
+                      "ordinal": 1,
+                      "name": "Incorrect Operation",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "leak_cause_incorrect_operation"
+                    },
+                    {
+                      "pageElementOptionId": "3b52afc4-724b-11ee-ae9c-f36ab6f6e3e6",
+                      "ordinal": 2,
+                      "name": "Materials or Welds",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "leak_cause_materials_or_welds"
+                    },
+                    {
+                      "pageElementOptionId": "3b52c392-724b-11ee-ae9d-6347526641f5",
+                      "ordinal": 3,
+                      "name": "Excavation",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "leak_cause_excavation"
+                    },
+                    {
+                      "pageElementOptionId": "3b52d81e-724b-11ee-ae9e-d7ac0673b3d5",
+                      "ordinal": 4,
+                      "name": "Corrosion",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "leak_cause_corrosion"
+                    },
+                    {
+                      "pageElementOptionId": "3b52f146-724b-11ee-ae9f-17fe0cc3159b",
+                      "ordinal": 5,
+                      "name": "Equipment",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "leak_cause_equipment"
+                    },
+                    {
+                      "pageElementOptionId": "3b530104-724b-11ee-aea0-7771e31a024e",
+                      "ordinal": 6,
+                      "name": "Natural Forces",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "leak_cause_natural_forces"
+                    },
+                    {
+                      "pageElementOptionId": "3b5310fe-724b-11ee-aea1-03e94c51e0cb",
+                      "ordinal": 7,
+                      "name": "Other Outside Forces",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "leak_cause_other_outside_forces"
+                    }
+                  ],
+                  "validations": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pageId": "3b5342d6-724b-11ee-aea2-f773c7bcaabb",
+          "draftPagePageId": "1d4d7599-ee31-400b-8ad0-67a69435d1cc",
+          "name": "Repair Data",
+          "ordinal": 5,
+          "isVisible": true,
+          "sections": [
+            {
+              "pageSectionId": "3b5346be-724b-11ee-aea3-139e9ffaaf20",
+              "draftPageSectionPageSectionId": "ac971b4b-38eb-428f-9212-bc568f50a4c0",
+              "name": null,
+              "ordinal": 0,
+              "hasHeader": false,
+              "isVisible": true,
+              "parentSectionId": null,
+              "page": {
+                "pageId": "3b5342d6-724b-11ee-aea2-f773c7bcaabb",
+                "isVisible": true
+              },
+              "repeatableConfiguration": null,
+              "elements": [
+                {
+                  "pageElementId": "acda88c5-0f50-495d-9d32-260617a37252",
+                  "draftPageElementPageElementId": "7c101927-6b32-4907-a33e-cd57d0315adb",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Repair Marked",
+                  "ordinal": 0,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b535aaa-724b-11ee-aea4-53298186f8fa",
+                      "ordinal": 0,
+                      "name": "Yes",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "repair_marked_yes"
+                    },
+                    {
+                      "pageElementOptionId": "3b53862e-724b-11ee-aea5-47eb1b96b76f",
+                      "ordinal": 1,
+                      "name": "No",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "repair_marked_no"
+                    }
+                  ],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "d7189a14-8f8d-4d06-9b6f-1a1f313e0965",
+                  "draftPageElementPageElementId": "6ac08db6-e32c-47a1-b4ce-207596eb2c3c",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "One Call Number",
+                  "ordinal": 1,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "dffa5f6f-e388-425b-90f5-92768d05812f",
+                  "draftPageElementPageElementId": "df21a370-933b-4ce7-9116-4a12fd1f9f7e",
+                  "placeholderText": null,
+                  "elementType": "SELECT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Actual Leak Source",
+                  "ordinal": 3,
+                  "options": [
+                    {
+                      "pageElementOptionId": "3b53df02-724b-11ee-aea6-13c3172a9170",
+                      "ordinal": 0,
+                      "name": "Main",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "actual_leak_source_main"
+                    },
+                    {
+                      "pageElementOptionId": "3b53f8de-724b-11ee-aea7-3b718fa1a892",
+                      "ordinal": 1,
+                      "name": "Service",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "actual_leak_source_service"
+                    },
+                    {
+                      "pageElementOptionId": "3b54039c-724b-11ee-aea8-af7d348c2667",
+                      "ordinal": 2,
+                      "name": "Valve",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "actual_leak_source_valve"
+                    },
+                    {
+                      "pageElementOptionId": "3b5416b6-724b-11ee-aea9-9b809a359780",
+                      "ordinal": 3,
+                      "name": "Meter",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "actual_leak_source_meter"
+                    },
+                    {
+                      "pageElementOptionId": "3b541fbc-724b-11ee-aeaa-bf9fe676e059",
+                      "ordinal": 4,
+                      "name": "Other",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "actual_leak_source_other"
+                    },
+                    {
+                      "pageElementOptionId": "3b543a7e-724b-11ee-aeab-ab7942b5cda1",
+                      "ordinal": 5,
+                      "name": "Multiple",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "actual_leak_source_multiple"
+                    },
+                    {
+                      "pageElementOptionId": "3b544b54-724b-11ee-aeac-37b2792c4ede",
+                      "ordinal": 6,
+                      "name": "Drip",
+                      "description": null,
+                      "isActive": true,
+                      "dataValue": "actual_leak_source_drip"
+                    }
+                  ],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "e0ea7800-b22a-417c-aa1c-096fce08c074",
+                  "draftPageElementPageElementId": "390abd4e-33f2-48df-b4c1-e699d5de1bd9",
+                  "placeholderText": null,
+                  "elementType": "DATE_TIME",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Begin Date",
+                  "ordinal": 2,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "f2ec0c95-6796-472a-a234-f77b36d3af13",
+                  "draftPageElementPageElementId": "eabd023c-af4a-47f6-85ef-3645e7f4412e",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Leak Repair Method",
+                  "ordinal": 4,
+                  "options": [],
+                  "validations": []
+                },
+                {
+                  "pageElementId": "faf4e64c-3e03-4828-9753-37038cd76c8f",
+                  "draftPageElementPageElementId": "39367736-0aa5-4d7c-8a3a-701fb366984e",
+                  "placeholderText": null,
+                  "elementType": "TEXT",
+                  "isRequired": false,
+                  "isVisible": true,
+                  "isEditable": true,
+                  "isDeleted": false,
+                  "name": "Repair Remarks",
+                  "ordinal": 5,
+                  "options": [],
+                  "validations": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meta": {
+    "graphqlQueryCost": 1434280
+  }
+}
