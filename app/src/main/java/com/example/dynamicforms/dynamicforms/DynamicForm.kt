@@ -10,12 +10,13 @@ import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import java.util.*
-
 
 @Composable
 fun DynamicFormScreen(jsonString: String) {
@@ -41,13 +42,10 @@ fun DynamicFormScreen(jsonString: String) {
                     when (element.elementType) {
                         "TEXT" -> {
                             var textValue by remember { mutableStateOf(TextFieldValue()) }
-                            TextField(
+                            CustomTextField(
                                 value = textValue,
                                 onValueChange = { textValue = it },
-                                label = { Text(text = element.name ?: "") },
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .padding(vertical = 4.dp)
+                                label = element.name ?: ""
                             )
                         }
                         "DATE" -> {
@@ -62,18 +60,31 @@ fun DynamicFormScreen(jsonString: String) {
         item {
             Button(
                 onClick = {
-                    // Log the form data
                     logFormData(formType)
                 },
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 16.dp),
+                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF6200EE)),
                 shape = RoundedCornerShape(8.dp)
             ) {
-                Text("Submit", fontSize = 18.sp)
+                Text("Submit", fontSize = 18.sp, color = Color.White)
             }
         }
     }
+}
+
+@Composable
+fun CustomTextField(value: TextFieldValue, onValueChange: (TextFieldValue) -> Unit, label: String) {
+    OutlinedTextField(
+        value = value,
+        onValueChange = onValueChange,
+        label = { Text(text = label) },
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 4.dp)
+            .padding(8.dp)
+    )
 }
 
 @Composable
@@ -96,13 +107,14 @@ fun DateInputField(element: FormElement) {
         day
     )
 
-    TextField(
+    OutlinedTextField(
         value = dateValue,
         onValueChange = { },
         label = { Text(text = element.name ?: "") },
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 4.dp),
+            .padding(vertical = 4.dp)
+            .padding(8.dp),
         readOnly = true,
         trailingIcon = {
             IconButton(onClick = { datePickerDialog.show() }) {
@@ -113,7 +125,6 @@ fun DateInputField(element: FormElement) {
 }
 
 private fun logFormData(formType: FormType) {
-    // Here, you can log the form data to the console or any other logging mechanism
     println("Logging form data:")
     formType.pages.forEach { page ->
         println("Page: ${page.name}")
