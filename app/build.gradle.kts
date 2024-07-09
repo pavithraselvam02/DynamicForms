@@ -73,4 +73,7 @@ dependencies {
 
     implementation ("androidx.compose.ui:ui:1.3.2")
     implementation ("androidx.compose.material3:material3:1.0.0-alpha14")
+
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1")
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.5.1")
 }
