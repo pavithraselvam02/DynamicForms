@@ -13,7 +13,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        // Read JSON from assets
         val jsonString = assets.open("form_data.json")
             .bufferedReader()
             .use(BufferedReader::readText)
